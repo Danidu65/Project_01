@@ -11,7 +11,7 @@ div {
     width: 100%;
     padding: 5px;
     align-items: center;
-    border: 1px solid black;
+    border: 4px solid black;
     background-color: white;
 }
 .a a{
@@ -26,7 +26,11 @@ div {
     display: inline;
 }
 footer{
-    height: 80px;
+    top: 100px;
+    height: 70px;
     background-color: silver;
     text-align: center;
+}
+body{
+    top: 0;align-content: flex-start;
 }
