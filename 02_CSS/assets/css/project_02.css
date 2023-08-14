@@ -4,4 +4,10 @@
     /*background-color: #c55353;*/
     /*position: relative;*/
 }
+section > main > div{
+    position: absolute;
+    background-color: #360136;
+    width: 30vw;
+    height: 100vh;
+}
 
