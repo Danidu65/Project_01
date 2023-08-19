@@ -1,7 +1,27 @@
+body{
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    /*overflow: hidden;*/
+}
+
+header{
+    position: relative;
+}
+
+header> nav {
+    position: absolute;
+    width: fit-content;
+    right: 5px;
+    top: 15px;
+    font-size: 25px;
+    font-style: revert;
+    margin-left: 1vw;
+}
+
 div {
     position: relative;
     width: 150px;
-    height: 700px;
+    height: 100%;
     background-color: #270149;
     color: white;
 }
@@ -14,20 +34,21 @@ div {
 /*    border: 4px solid black;*/
 /*    background-color: white;*/
 /*}*/
-.a a{
-    font-style: italic;
-    font-size: 25px;
-    right: 0;
-    top: 0;
-    margin-left: 1vw;
-}
+/*.a a{*/
+/*    font-style: italic;*/
+/*    font-size: 20px;*/
+/*    right: 0;*/
+/*    top: 0;bottom: 5px;*/
+/*    margin-left: 1vw;*/
+/*}*/
 .a{
     margin-left: 30vw;
     display: inline;
 }
 footer{
     top: 100px;
-    height: 70px;
+    height: 35px;
+    margin: -20px;
     background-color: silver;
     text-align: center;
 }
@@ -38,16 +59,16 @@ body{
 section {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    width: 100vw;;
+    width: 100vw;
     position: relative;
 
 }
 
 section > main:nth-child(2) {
     border-top: 4px solid black;
-    width: 81vw;
+    width: 80vw;
     background-color: white;
-    padding: 1vw;
+    /*padding: 1vw;*/
 
 }
 
@@ -55,8 +76,8 @@ section > main:nth-child(2) > div {
     display: flex;
     width: 81vw;
     height: auto;
-    border: 2px solid red;
-    border-bottom: 2px solid green;
+    border: 2px solid #000000;
+    border-bottom: 2px solid #000000;
     padding-right: 4px;
 
 }
@@ -73,6 +94,6 @@ section > main:nth-child(2) > div > img {
 }
 
 section > main:nth-child(2) > div > img:nth-child(2) {
-    border-left: 2px solid green;
-    border-right: 2px solid green;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
 }
