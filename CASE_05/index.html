@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CASE_05</title>
+
+    <style type="text/css">
+
+        @import url(02_CSS/assets/css/normalize.css);
+
+        body>div{
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        body >div > div{
+            background-color: orange;
+            border: 2px solid #000000;
+
+        }
+
+        body>div>div:first-child{
+            background: red;
+            grid-column: 1/3;
+        }
+        body>div>div:nth-child(2){
+            background: green;
+        }
+        body>div>div:nth-child(3){
+            background: #f60000;
+            grid-column: 4/4;
+            grid-row: 1/4;
+        }
+        body>div>div:nth-child(4){
+            background: #360136;
+        }
+        body>div>div:nth-child(5){
+            background: #b21e9a;
+        }
+        body>div>div:nth-child(6){
+            background: #0237ad;
+        }
+        body>div>div:nth-child(7){
+            background: #ad4242;
+        }
+        body>div>div:nth-child(8){
+            background: #360136;
+            grid-column: 2/4;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</div>
+
+</body>
+</html>

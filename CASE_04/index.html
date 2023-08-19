@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 04</title>
+
+    <style>
+        /**{*/
+        /*    margin: 0;*/
+        /*    padding: 0;*/
+        /*}*/
+        /*section{*/
+        /*    position: sticky;*/
+        /*    top: 0;*/
+        /*}*/
+
+        .ch {
+            position: sticky;
+            top: 0px;
+            z-index: 9999;
+        }
+
+        section > div:first-child{
+            height: 60px;
+            background-color: #f60000;
+            /*position: relative;*/
+        }
+        section > div :first-child > span{
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-weight: bold;
+
+        }
+
+
+        section > div:nth-child(2){
+            height: calc(100vh - 50px);
+            position: relative;
+        }
+
+        section > div:nth-child(2)>span{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            font-size: 100px;
+        }
+
+        section:nth-child(1)>div:first-child{
+            background: fuchsia;
+        }
+        section:nth-child(1)>div:nth-child(2){
+            background: #cea000;
+        }
+
+
+
+
+        section:nth-child(2)>div:first-child{
+            background: #ff0000;
+        }
+
+        section:nth-child(3)>div:nth-child(2){
+            background: #007bef;
+        }
+
+
+
+
+        section:nth-child(3)>div:first-child{
+            background: #360136;
+        }
+        section:nth-child(4)>div:nth-child(2){
+            background: #a9f513;
+        }
+
+
+
+
+        section:nth-child(4)>div:first-child{
+            background: #0237ad;
+        }
+
+        section:nth-child(2)>div:nth-child(2){
+            background: #00ffdd;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <section>
+        <div>
+            <span>CASE 01</span>
+        </div>
+        <div>
+            <span>Hellow</span>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <span>CASE 02</span>
+        </div>
+        <div>
+            <span>Bitches</span>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <span>CASE 03</span>
+        </div>
+        <div>
+            <span>F U C K</span>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <span>CASE 04</span>
+        </div>
+        <div>
+            <span>YOU</span>
+        </div>
+    </section>
+</body>
+</html>

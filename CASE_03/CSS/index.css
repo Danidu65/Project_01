@@ -1,0 +1,92 @@
+body > div{
+    width: 150px;
+    aspect-ratio: 1/1;
+    border: 12px solid red;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+
+body > div > div{
+    width: calc(150px - 22px);
+    aspect-ratio: 1/1;
+    border: 12px solid gray;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+section{
+    position: absolute;
+    width: fit-content;
+
+    right: 0;
+    left: 0px;
+    margin: auto;
+}
+
+section > div {
+    width: calc(150px - 20px);
+    aspect-ratio: 1/1;
+    background-color: chocolate;
+    border-radius: 50%;
+
+    margin-top:  315.2px;
+    margin-bottom: 315.2px;
+}
+
+/*}section > div:nth-child(2) {*/
+/*    width: calc(150px - 20px);*/
+/*    aspect-ratio: 1/1;*/
+/*    background-color: chocolate;*/
+/*    border-radius: 50%;*/
+
+/*    margin: 150.0px 0px;*/
+
+
+/*}section > div:nth-child(3) {*/
+/*    width: calc(150px - 20px);*/
+/*    aspect-ratio: 1/1;*/
+/*    background-color: chocolate;*/
+/*    border-radius: 50%;*/
+
+/*    margin: 315.0px 0px;*/
+/*}*/
+section > div:first-child{
+    background-color: blue;
+
+}
+
+section > div:nth-child(2) {
+    background-color: aqua;
+}
+
+section > div:nth-child(3) {
+    background-color: coral;
+}
+
+section>div>span{
+    position: absolute;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+
+    text-align-all: center;
+
+    margin: auto;
+}
