@@ -23,12 +23,15 @@
 
         body>div>div:first-child{
             background: red;
+            grid-column: 1/3;
         }
         body>div>div:nth-child(2){
             background: green;
         }
         body>div>div:nth-child(3){
-            background: #ff5f00;
+            background: #f60000;
+            grid-column: 4/4;
+            grid-row: 1/4;
         }
         body>div>div:nth-child(4){
             background: #360136;
@@ -43,19 +46,8 @@
             background: #ad4242;
         }
         body>div>div:nth-child(8){
-            background: #d956d9;
-        }
-        body>div>div:nth-child(9){
-            background: #3a056c;
-        }
-        body>div>div:nth-child(10){
-            background: #eccf0b;
-        }
-        body>div>div:nth-child(11){
-            background: #456f96;
-        }
-        body>div>div:last-child{
-            background: #34dad6;
+            background: #360136;
+            grid-column: 2/4;
         }
 
     </style>
@@ -64,11 +56,6 @@
 <body>
 
 <div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-
     <div></div>
     <div></div>
     <div></div>
